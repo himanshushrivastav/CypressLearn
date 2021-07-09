@@ -5,6 +5,7 @@ describe('amazon search', () => {
         cy.get('.nav-search-field ').within(
             ()=>{
                 cy.get('#twotabsearchtextbox').type('Apple Mac laptops')
+                console.log('It works')
             }
         )
         
